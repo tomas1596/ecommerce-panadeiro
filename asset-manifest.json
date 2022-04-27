@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ecommerce-panadeiro/static/css/main.7b3d0e04.css",
+    "main.js": "/ecommerce-panadeiro/static/js/main.bf14598e.js",
+    "static/js/787.2513c91a.chunk.js": "/ecommerce-panadeiro/static/js/787.2513c91a.chunk.js",
+    "index.html": "/ecommerce-panadeiro/index.html",
+    "main.7b3d0e04.css.map": "/ecommerce-panadeiro/static/css/main.7b3d0e04.css.map",
+    "main.bf14598e.js.map": "/ecommerce-panadeiro/static/js/main.bf14598e.js.map",
+    "787.2513c91a.chunk.js.map": "/ecommerce-panadeiro/static/js/787.2513c91a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b3d0e04.css",
+    "static/js/main.bf14598e.js"
+  ]
+}
