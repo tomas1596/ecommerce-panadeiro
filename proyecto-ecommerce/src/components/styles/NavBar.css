@@ -11,8 +11,8 @@
     min-width:130px;
 }
 
-@media (max-width: 991.99px) {
-    .navbar__logo-right{
+@media (max-width: 991.98px) {
+    .navbar__logo-right, .cart-widget{
         display: none;
     }
 }
