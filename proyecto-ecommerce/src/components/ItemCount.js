@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 function ItemCount() {
     const stock = 5
     const[count, setcount] = useState(1);
-
     function onAdd(){
         if(count < stock){
             setcount(count + 1)
@@ -17,7 +16,6 @@ function ItemCount() {
         if(count > 1){
             setcount(count - 1)
         }else{
-            alert("No hay stock")
         }
     }
 
@@ -25,7 +23,6 @@ function ItemCount() {
         if(stock > 1){
             alert("Producto agregado al carrito")
         }else{
-            alert("Ingrese una cantidad valida")
         }
     }
 
