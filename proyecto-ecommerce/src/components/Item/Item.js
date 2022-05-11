@@ -8,6 +8,7 @@ function Item({name, price, img, stock}) {
                 <img className="card-img" src={img} alt="Proteina"></img>  
                 <div className="pt-2">{name}</div>
                 <div>{price}</div>
+                <div>Stock: {stock}</div>
                 <ItemCount stock={stock} initial={1} onAdd={(count)=> alert(`Agregaste ${count} producto/s a tu carrito.`)}/>
             </div>
         </div>
