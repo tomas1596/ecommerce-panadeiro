@@ -3,7 +3,15 @@
     padding-right:15px;
 }
 
-.dropdown-menu li a{
+.navbar-nav{
+    margin-left: -2rem;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.dropdown-menu li p{
     text-align: center;
 }
 

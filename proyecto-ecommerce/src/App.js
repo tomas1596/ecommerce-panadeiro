@@ -1,16 +1,29 @@
-/* import logo from './logo.svg'; */
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ItemListContainer from './Container/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './Container/ItemDetailContainer/ItemDetailContainer';
+import Cart from './components/Cart/Cart';
+import About from './components/About/About';
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <NavBar></NavBar>
-        <ItemListContainer></ItemListContainer>
+    <BrowserRouter>
+      <div className="App">
+        <div>
+          <NavBar />
+          <Routes>
+          <Route path='/' element = { <ItemListContainer/> } />
+          <Route path='/detail/:IdDetail' element = { <ItemDetailContainer/> } />
+          <Route path="/about" element = { <About /> } />
+          <Route path="/cart" element = { <Cart /> } />
+
+          <Route path='/*' element ={ <Navigate to ='/' replace /> }></Route>
+          </Routes>        
+        </div>
       </div>
-    </div>
+    </BrowserRouter>
   )
 }
 
