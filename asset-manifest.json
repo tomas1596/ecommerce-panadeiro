@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecommerce-panadeiro/static/css/main.c0ae32d2.css",
-    "main.js": "/ecommerce-panadeiro/static/js/main.b94efd69.js",
+    "main.js": "/ecommerce-panadeiro/static/js/main.9f8b93f9.js",
     "static/js/787.2513c91a.chunk.js": "/ecommerce-panadeiro/static/js/787.2513c91a.chunk.js",
     "static/media/pre-3.png": "/ecommerce-panadeiro/static/media/pre-3.9b994ae92aad0ceab4f4.png",
     "static/media/creatina-2.jpg": "/ecommerce-panadeiro/static/media/creatina-2.101a8312b41983907799.jpg",
@@ -10,11 +10,11 @@
     "static/media/creatina-3.jpg": "/ecommerce-panadeiro/static/media/creatina-3.2a35bd25009f216e44e5.jpg",
     "index.html": "/ecommerce-panadeiro/index.html",
     "main.c0ae32d2.css.map": "/ecommerce-panadeiro/static/css/main.c0ae32d2.css.map",
-    "main.b94efd69.js.map": "/ecommerce-panadeiro/static/js/main.b94efd69.js.map",
+    "main.9f8b93f9.js.map": "/ecommerce-panadeiro/static/js/main.9f8b93f9.js.map",
     "787.2513c91a.chunk.js.map": "/ecommerce-panadeiro/static/js/787.2513c91a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ae32d2.css",
-    "static/js/main.b94efd69.js"
+    "static/js/main.9f8b93f9.js"
   ]
 }
