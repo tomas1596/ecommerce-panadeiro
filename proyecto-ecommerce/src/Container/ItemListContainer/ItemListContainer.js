@@ -14,19 +14,18 @@ const ItemListContainer = ({greeting = 'WE GO GYM MUSCLE SHOP'}) => {
     const {id} = useParams()
 
     useEffect(() => {
-        if (id){
+        if (id) {
             getFetch()
-            .then(resp=> setProductos(resp.filter((prods) => prods.categoria === id)))
+            .then(resp=> setProductos(resp.filter((item) => item.category === id)))
             .catch((err)=> console.log(err))
-            .finally(() => setLoading(false));
-        } else {}
+            .finally(()=>setLoading(false))                             
+        } else {
             getFetch()
-            .then(resp => setProductos(resp))
+            .then(resp=> setProductos(resp))
             .catch((err)=> console.log(err))
-            .finally(() => setLoading(false));
-    }, [id]);
-
-
+            .finally(()=>setLoading(false))                 
+        }
+    }, [id])
 
     return (
             <div>

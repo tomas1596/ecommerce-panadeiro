@@ -5,7 +5,7 @@ import ItemDetail from "../../components/ItemDetail/ItemDetail";
 
 const ItemDetailContainer = () => {
 
-    const [productos, setProductos] = useState([]);
+    const [productos, setProductos] = useState({});
     const [loading, setLoading] = useState(true);
     const {IdDetail} = useParams()
 
@@ -15,13 +15,14 @@ const ItemDetailContainer = () => {
             .then(resp=> setProductos(resp))
             .catch((err)=> console.log(err))
             .finally(() => setLoading(false)) 
-        }, 100)    
+        }, 1000)    
     },[IdDetail])
 
     console.log(productos)
+
     return (
         <div>
-            {loading ? (<h2>Cargando detalles..</h2>) : (<ItemDetail productos={productos}/>)}
+            {loading ? (<h2 className='mt-5'>Cargando detalles..</h2>) : (<ItemDetail productos={productos}/>)}
         </div>
     )
 }

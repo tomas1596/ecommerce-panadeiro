@@ -15,12 +15,28 @@
     text-align: center;
 }
 
+p:hover, a:hover { 
+    color: rgb(189, 189, 189) !important;
+} 
+
+
+
+
 .dropdown-menu {
     min-width:130px;
 }
 
 @media (max-width: 991.98px) {
-    .navbar__logo-right, .cart-widget{
+    .navbar__logo-right, .nav-cart-1, .quantity{
+        display: none;
+    }
+    .navbar-toggler{
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav-cart-2{
         display: none;
     }
 }

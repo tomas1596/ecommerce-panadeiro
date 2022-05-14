@@ -7,7 +7,7 @@ function Item({id, img, name, price, stock}) {
         <div className="card-container">
             
             <div className="card-body text-dark"><Link to={`/detail/${id}`} className="link">
-                <img className="card-img" src={img} alt="Proteina"></img>  
+                <img className="card-img" src={img} alt={name}></img>  
                 <div className="pt-2">
                     <div>{name} </div>
                     <div>{price} </div>
