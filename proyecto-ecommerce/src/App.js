@@ -9,7 +9,7 @@ import About from './components/About/About';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ecommerce-panadeiro">
       <div className="App">
           <NavBar />
 
