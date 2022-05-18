@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/ecommerce-panadeiro/static/css/main.c0ae32d2.css",
-    "main.js": "/ecommerce-panadeiro/static/js/main.9f8b93f9.js",
+    "main.css": "/ecommerce-panadeiro/static/css/main.672281a8.css",
+    "main.js": "/ecommerce-panadeiro/static/js/main.ade6fd52.js",
     "static/js/787.2513c91a.chunk.js": "/ecommerce-panadeiro/static/js/787.2513c91a.chunk.js",
-    "static/media/pre-3.png": "/ecommerce-panadeiro/static/media/pre-3.9b994ae92aad0ceab4f4.png",
-    "static/media/creatina-2.jpg": "/ecommerce-panadeiro/static/media/creatina-2.101a8312b41983907799.jpg",
-    "static/media/pre-1.jpg": "/ecommerce-panadeiro/static/media/pre-1.77cf5225c27741383ff6.jpg",
-    "static/media/pre-2.jpg": "/ecommerce-panadeiro/static/media/pre-2.ff73ece1742de2afcd47.jpg",
-    "static/media/creatina-3.jpg": "/ecommerce-panadeiro/static/media/creatina-3.2a35bd25009f216e44e5.jpg",
+    "static/media/c4-1.png": "/ecommerce-panadeiro/static/media/c4-1.a88cd0cf147edba1a5c1.png",
+    "static/media/pump-1.png": "/ecommerce-panadeiro/static/media/pump-1.26fdcccee1242eb92faa.png",
+    "static/media/ena-protein.png": "/ecommerce-panadeiro/static/media/ena-protein.844cec0734c45c1d8efe.png",
+    "static/media/creatina-universal.png": "/ecommerce-panadeiro/static/media/creatina-universal.84735595efaf716c4ed6.png",
+    "static/media/prolac-1.png": "/ecommerce-panadeiro/static/media/prolac-1.710ace4f4a8a36aeed01.png",
+    "static/media/creatina-growth.png": "/ecommerce-panadeiro/static/media/creatina-growth.a4351d38c17fba66b086.png",
+    "static/media/whey-1.png": "/ecommerce-panadeiro/static/media/whey-1.114c30fa5da81bd4df7e.png",
+    "static/media/creatina-star.png": "/ecommerce-panadeiro/static/media/creatina-star.4ea3f509b70c7e631d2f.png",
     "index.html": "/ecommerce-panadeiro/index.html",
-    "main.c0ae32d2.css.map": "/ecommerce-panadeiro/static/css/main.c0ae32d2.css.map",
-    "main.9f8b93f9.js.map": "/ecommerce-panadeiro/static/js/main.9f8b93f9.js.map",
+    "main.672281a8.css.map": "/ecommerce-panadeiro/static/css/main.672281a8.css.map",
+    "main.ade6fd52.js.map": "/ecommerce-panadeiro/static/js/main.ade6fd52.js.map",
     "787.2513c91a.chunk.js.map": "/ecommerce-panadeiro/static/js/787.2513c91a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0ae32d2.css",
-    "static/js/main.9f8b93f9.js"
+    "static/css/main.672281a8.css",
+    "static/js/main.ade6fd52.js"
   ]
 }
